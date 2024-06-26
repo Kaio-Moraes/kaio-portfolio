@@ -6,7 +6,6 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -49,7 +48,7 @@ function Hero() {
         <p className={styles.description}>
         Resolvendo problemas com ideias intuitivas e ágeis, garantindo soluções eficientes e inovadoras.
         </p>
-        <a href={CV} download>
+        <a href="#" /*download*/>
           <button className="hover">Resumo - CV</button>
         </a>
       </div>
